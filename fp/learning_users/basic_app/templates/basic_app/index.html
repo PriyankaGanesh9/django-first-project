@@ -1,0 +1,22 @@
+{% extends "basic_app/base.html" %}
+{% block body_block %}
+
+<div class="container">
+  <div class="jumbotron">
+    <h1>Online Food Ordering Application</h1>
+    {% if user.is_authenticated %}
+        <h2>Welcome {{ user.username }}!</h2>
+    {% else %}
+    
+        <div class="container">
+            <div class="jumbotron">
+                <h2>Hungry?</h2>
+              <h2>Order food from favourite restaurants near you.</h2>
+            </div>
+        </div>
+
+    {% endif %}
+  </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,288 @@
+{% extends "basic_app/base.html" %}
+{% block body_block %}
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<div class="container">
+
+  <h1 class="font-weight-light text-center text-lg-left mt-4 mb-0">Order Food Online!</h1>
+  <hr class="mt-2 mb-5">
+
+  <div class="row text-center text-lg-left">
+
+    <div class="col-lg-3 col-md-4 col-6">
+      <a href="#" class="d-block mb-4 h-100">
+            <img src="https://images.unsplash.com/photo-1456014673271-90b7fddf2eea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="" height="160px"width="250px" >
+            <div class="card-body">
+                  <p class="card-text">Apple pie</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                          <span class="input-group-btn">
+                              <button class="btn btn-white btn-minuse btn-sm" type="button">-</button>
+                          </span>
+                          <input type="text" class="btn btn-success btn-sm" maxlength="3" value="0">
+                          <span class="input-group-btn">
+                              <button class="btn btn-red btn-pluss btn-sm" type="button">+</button>
+                          </span>
+                     </div>
+
+                  </div>
+                </div>
+          </a>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-6">
+      <a href="#" class="d-block mb-4 h-100">
+            <img  src="https://simpletasty.recipes/wp-content/uploads/2018/10/margarita-pizza.jpg"height="160px"width="250px" alt="">
+            <div class="card-body">
+                  <p class="card-text">Margarita pizza</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                          <span class="input-group-btn">
+                              <button class="btn btn-white btn-minuse btn-sm" type="button">-</button>
+                          </span>
+                          <input type="text" class="btn btn-success btn-sm" maxlength="3" value="0">
+                          <span class="input-group-btn">
+                              <button class="btn btn-red btn-pluss btn-sm" type="button">+</button>
+                          </span>
+                     </div>
+
+                  </div>
+                </div>
+          </a>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-6">
+      <a href="#" class="d-block mb-4 h-100">
+            <img  src="https://i.ytimg.com/vi/aHg4rZ0TGvA/hqdefault.jpg"height="160px"width="250px"alt="">
+            <div class="card-body">
+                  <p class="card-text">Pav bhaji</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                          <span class="input-group-btn">
+                              <button class="btn btn-white btn-minuse btn-sm" type="button">-</button>
+                          </span>
+                          <input type="text" class="btn btn-success btn-sm" maxlength="3" value="0">
+                          <span class="input-group-btn">
+                              <button class="btn btn-red btn-pluss btn-sm" type="button">+</button>
+                          </span>
+                     </div>
+
+                  </div>
+                </div>
+          </a>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-6">
+      <a href="#" class="d-block mb-4 h-100">
+            <img src="https://online.kfc.co.in/Content/OnlineOrderingImages/Menu/Items/kfc-favorites.jpg?v=9.59"height="160px"width="250px" alt="">
+            <div class="card-body">
+                  <p class="card-text">Mingles Bucket</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                          <span class="input-group-btn">
+                              <button class="btn btn-white btn-minuse btn-sm" type="button">-</button>
+                          </span>
+                          <input type="text" class="btn btn-success btn-sm" maxlength="3" value="0">
+                          <span class="input-group-btn">
+                              <button class="btn btn-red btn-pluss btn-sm" type="button">+</button>
+                          </span>
+                     </div>
+
+                  </div>
+                </div>
+          </a>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-6">
+      <a href="#" class="d-block mb-4 h-100">
+              <img src="https://d2np4vr8r37sds.cloudfront.net/article/11155-jufoxlyznp-1554205911.jpeg"height="160px"width="250px" >
+              <div class="card-body">
+                  <p class="card-text">Hyderabad Biriyani</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                          <span class="input-group-btn">
+                              <button class="btn btn-white btn-minuse btn-sm" type="button">-</button>
+                          </span>
+                          <input type="text" class="btn btn-success btn-sm" maxlength="3" value="0">
+                          <span class="input-group-btn">
+                              <button class="btn btn-red btn-pluss btn-sm" type="button">+</button>
+                          </span>
+                     </div>
+
+                  </div>
+                </div>
+          </a>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-6">
+      <a href="#" class="d-block mb-4 h-100">
+              <img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=924&q=80"height="160px"width="250px" >
+              <div class="card-body">
+                  <p class="card-text">Naan</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                          <span class="input-group-btn">
+                              <button class="btn btn-white btn-minuse btn-sm" type="button">-</button>
+                          </span>
+                          <input type="text" class="btn btn-success btn-sm" maxlength="3" value="0">
+                          <span class="input-group-btn">
+                              <button class="btn btn-red btn-pluss btn-sm" type="button">+</button>
+                          </span>
+                     </div>
+
+                  </div>
+                </div>
+          </a>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-6">
+      <a href="#" class="d-block mb-4 h-100">
+              <img src="https://images.unsplash.com/photo-1559978137-8c560d91e9e1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80"height="160px"width="250px" >
+              <div class="card-body">
+                  <p class="card-text">Chicken Pepperoni Pizza</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                          <span class="input-group-btn">
+                              <button class="btn btn-white btn-minuse btn-sm" type="button">-</button>
+                          </span>
+                          <input type="text" class="btn btn-success btn-sm" maxlength="3" value="0">
+                          <span class="input-group-btn">
+                              <button class="btn btn-red btn-pluss btn-sm" type="button">+</button>
+                          </span>
+                     </div>
+
+                  </div>
+                </div>
+          </a>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-6">
+      <a href="#" class="d-block mb-4 h-100">
+              <img src="https://images.unsplash.com/photo-1512003867696-6d5ce6835040?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"height="160px"width="250px" >
+              <div class="card-body">
+                  <p class="card-text">Veggie Soup</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                          <span class="input-group-btn">
+                              <button class="btn btn-white btn-minuse btn-sm" type="button">-</button>
+                          </span>
+                          <input type="text" class="btn btn-success btn-sm" maxlength="3" value="0">
+                          <span class="input-group-btn">
+                              <button class="btn btn-red btn-pluss btn-sm" type="button">+</button>
+                          </span>
+                     </div>
+
+                  </div>
+                </div>
+          </a>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-6">
+      <a href="#" class="d-block mb-4 h-100">
+              <img src="https://media.gettyimages.com/photos/chicken-biryani-indian-food-picture-id670907185"height="160px"width="250px" >
+              <div class="card-body">
+                  <p class="card-text">Ambur biryani</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                          <span class="input-group-btn">
+                              <button class="btn btn-white btn-minuse btn-sm" type="button">-</button>
+                          </span>
+                          <input type="text" class="btn btn-success btn-sm" maxlength="3" value="0">
+                          <span class="input-group-btn">
+                              <button class="btn btn-red btn-pluss btn-sm" type="button">+</button>
+                          </span>
+                     </div>
+
+                  </div>
+                </div>
+          </a>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-6">
+      <a href="#" class="d-block mb-4 h-100">
+              <img src="http://srisaravanamess.com/wp-content/uploads/2017/02/South-Indian-Cuisines-and-Recipes1.jpg"height="160px"width="250px" >
+              <div class="card-body">
+                  <p class="card-text">Ghee Roast</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                          <span class="input-group-btn">
+                              <button class="btn btn-white btn-minuse btn-sm" type="button">-</button>
+                          </span>
+                          <input type="text" class="btn btn-success btn-sm" maxlength="3" value="0">
+                          <span class="input-group-btn">
+                              <button class="btn btn-red btn-pluss btn-sm" type="button">+</button>
+                          </span>
+                     </div>
+
+                  </div>
+                </div>
+          </a>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-6">
+      <a href="#" class="d-block mb-4 h-100">
+              <img src="http://maunikagowardhan.co.uk/wp-content/uploads/2016/09/Matar-Paneer-2-700x467.jpg"height="160px"width="250px" >
+              <div class="card-body">
+                  <p class="card-text">Matar Paneer</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                          <span class="input-group-btn">
+                              <button class="btn btn-white btn-minuse btn-sm" type="button">-</button>
+                          </span>
+                          <input type="text" class="btn btn-success btn-sm" maxlength="3" value="0">
+                          <span class="input-group-btn">
+                              <button class="btn btn-red btn-pluss btn-sm" type="button">+</button>
+                          </span>
+                     </div>
+
+                  </div>
+                </div>
+          </a>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-6">
+      <a href="#" class="d-block mb-4 h-100">
+              <img src="https://www.seriouseats.com/recipes/images/20090520-barbecue-chicken.jpg"height="160px"width="250px" >
+              <div class="card-body">
+                  <p class="card-text">Barbecue chicken</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                          <span class="input-group-btn">
+                              <button class="btn btn-white btn-minuse btn-sm" type="button">-</button>
+                          </span>
+                          <input type="text" class="btn btn-success btn-sm" maxlength="3" value="0">
+                          <span class="input-group-btn">
+                              <button class="btn btn-red btn-pluss btn-sm" type="button">+</button>
+                          </span>
+                     </div>
+
+                  </div>
+                </div>
+          </a>
+    </div>
+</div>
+
+<br><br>
+<a href="{% url 'basic_app:payment' %}" class="btn btn-primary btn-lg btn-block" role="button" aria-disabled="true">Continue</a>
+
+
+
+<!-- <div class="btn-group" role="group" aria-label="Basic example">
+  <input type="number" class="btn btn-success" name="qty" value="1">
+</div> -->
+
+<script>
+  $('.btn-minuse').on('click', function(){
+        $(this).parent().siblings('input').val(parseInt($(this).parent().siblings('input').val()) - 1)
+      })
+
+      $('.btn-pluss').on('click', function(){
+        $(this).parent().siblings('input').val(parseInt($(this).parent().siblings('input').val()) + 1)
+      })
+</script>
+
+
+<br><br><br>
+
+
+{% endblock %}
